@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nm2E0Bqabew=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hasan\\source\\repos\\PreservicaAPITest\\NasaPlayWrightAPITests\\NasaPlayWrightAPITests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\microsoft.net.test.sdk.17.12.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.playwright\\1.51.0\\microsoft.playwright.1.51.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.playwright.nunit\\1.51.0\\microsoft.playwright.nunit.1.51.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.playwright.testadapter\\1.51.0\\microsoft.playwright.testadapter.1.51.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.6.3\\microsoft.testing.extensions.telemetry.1.6.3.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\1.6.3\\microsoft.testing.extensions.trxreport.abstractions.1.6.3.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\1.6.3\\microsoft.testing.extensions.vstestbridge.1.6.3.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.testing.platform\\1.6.3\\microsoft.testing.platform.1.6.3.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.testing.platform.msbuild\\1.6.3\\microsoft.testing.platform.msbuild.1.6.3.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.13.0\\microsoft.testplatform.objectmodel.17.13.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\microsoft.testplatform.testhost\\17.12.0\\microsoft.testplatform.testhost.17.12.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\mstest\\3.6.4\\mstest.3.6.4.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\mstest.analyzers\\3.6.4\\mstest.analyzers.3.6.4.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\mstest.testadapter\\3.8.3\\mstest.testadapter.3.8.3.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\mstest.testframework\\3.6.4\\mstest.testframework.3.6.4.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\nunit3testadapter\\4.0.0\\nunit3testadapter.4.0.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hasan\\.nuget\\packages\\system.text.json\\6.0.10\\system.text.json.6.0.10.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MSTest 3.6.4 requires MSTest.TestAdapter (= 3.6.4) but version MSTest.TestAdapter 3.8.3 was resolved.",
+      "libraryId": "MSTest.TestAdapter",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

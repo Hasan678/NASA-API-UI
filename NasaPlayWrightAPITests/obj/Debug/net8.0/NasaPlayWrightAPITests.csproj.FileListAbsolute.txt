@@ -1,0 +1,7 @@
+C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlayWrightAPITests\obj\Debug\net8.0\NasaPlayWrightAPITests.csproj.AssemblyReference.cache
+C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlayWrightAPITests\obj\Debug\net8.0\NasaPlayWrightAPITests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlayWrightAPITests\obj\Debug\net8.0\NasaPlayWrightAPITests.AssemblyInfoInputs.cache
+C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlayWrightAPITests\obj\Debug\net8.0\NasaPlayWrightAPITests.AssemblyInfo.cs
+C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlayWrightAPITests\obj\Debug\net8.0\NasaPlayWrightAPITests.csproj.CoreCompileInputs.cache
+C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlayWrightAPITests\obj\Debug\net8.0\NasaPlayWrightAPITests.gentestingplatformentrypointinputcache.cache
+C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlayWrightAPITests\obj\Debug\net8.0\NasaPlayWrightAPITests.genautoregisteredextensionsinputcache.cache
