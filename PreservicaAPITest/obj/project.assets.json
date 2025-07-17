@@ -6049,9 +6049,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hasan\\source\\repos\\PreservicaAPITest\\PreservicaAPITest\\PreservicaAPITest.csproj",
-      "projectName": "PreservicaAPITest",
-      "projectPath": "C:\\Users\\Hasan\\source\\repos\\PreservicaAPITest\\PreservicaAPITest\\PreservicaAPITest.csproj",
+      "projectUniqueName": "C:\\Users\\Hasan\\source\\repos\\PreservicaAPITest\\PreservicaAPITest\\NasaAPITest.csproj",
+      "projectName": "NasaAPITest",
+      "projectPath": "C:\\Users\\Hasan\\source\\repos\\PreservicaAPITest\\PreservicaAPITest\\NasaAPITest.csproj",
       "packagesPath": "C:\\Users\\Hasan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Hasan\\source\\repos\\PreservicaAPITest\\PreservicaAPITest\\obj\\",
       "projectStyle": "PackageReference",

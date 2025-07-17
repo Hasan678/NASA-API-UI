@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using RestSharp;
+using System.Text.Json;
 using TechTalk.SpecFlow;
 
 namespace PreservicaAPITest.StepDefinitions
@@ -10,23 +11,25 @@ namespace PreservicaAPITest.StepDefinitions
         private RestResponse _response;
 
         [When("I send a request to the CME API")]
-        public void CmeApiRequest()
-        {
-            var url = "https://api.nasa.gov";
+            public void CmeApiRequest()
+            {
+                var url = "https://api.nasa.gov";
 
-            var client = new RestClient(url);
-            var request = new RestRequest("DONKI/CME", Method.Get);
+                var client = new RestClient(url);
+                var request = new RestRequest("DONKI/CME", Method.Get);
 
-            request.AddParameter("api_key", "WHJfm31QbHCFFxh939nCjgonTbxxyg9TW2FsybS6");
+                request.AddParameter("api_key", "WHJfm31QbHCFFxh939nCjgonTbxxyg9TW2FsybS6");
 
-            _response = client.Execute(request);
+                _response = client.Execute(request);
 
-            Console.WriteLine("Request URL: " + client.BuildUri(request));
-            Console.WriteLine("STATUS CODE: " + _response.StatusCode);
-            Console.WriteLine("ERROR: " + _response.ErrorMessage);
-            Console.WriteLine("CONTENT: " + _response.Content);
+                var flares = JsonSerializer.Deserialize<List<FlareEvent>>(_response.Content);
+                var limitedFlares = flares?.Take(2).ToList();
 
-        }
+                Console.WriteLine("Request URL: " + client.BuildUri(request));
+                Console.WriteLine("STATUS CODE: " + _response.StatusCode);
+                Console.WriteLine("ERROR: " + _response.ErrorMessage);
+                Console.WriteLine("CONTENT: " + _response.Content);
+            }
 
         [Then("The CME API response status should be 200")]
         public void CmeApiResponse() 

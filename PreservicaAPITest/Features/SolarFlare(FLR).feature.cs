@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace PreservicaAPITest.Features
+namespace NasaAPITest.Features
 {
     using TechTalk.SpecFlow;
     using System;

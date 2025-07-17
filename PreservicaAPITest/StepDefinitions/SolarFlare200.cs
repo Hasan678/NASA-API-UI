@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using RestSharp;
 using TechTalk.SpecFlow;
+using System.Text.Json;
+using PreservicaAPITest.DeserializedJson;
 
 namespace PreservicaAPITest.StepDefinitions
 {
@@ -29,9 +31,12 @@ namespace PreservicaAPITest.StepDefinitions
 
             var response = client.Execute(request);
 
+            var flares = JsonSerializer.Deserialize<List<CMEJSON>>(_response.Content);
+            var limitedFlares = flares?.Take(2).ToList();
+
             Console.WriteLine("Request URL: " + client.BuildUri(request));
-            Console.WriteLine("STATUS CODE: " + _response.StatusCode);
-            Console.WriteLine("ERROR: " + _response.ErrorMessage + "CHECK!");
+            Console.WriteLine("STATUS CODE: " + _response.StatusCode );
+            Console.WriteLine("ERROR: " + _response.ErrorMessage);
             Console.WriteLine("CONTENT: " + _response.Content);
         }
 
@@ -41,6 +46,7 @@ namespace PreservicaAPITest.StepDefinitions
             Assert.IsNotNull(_response, "This shows nothing, it might have failed!");
 
             var statusCode = (int)_response.StatusCode;
+            
             Console.WriteLine("Assert status code: " + statusCode);
 
             Assert.AreEqual(200, statusCode, "Expected status code 200 but got " + statusCode);
@@ -60,6 +66,9 @@ namespace PreservicaAPITest.StepDefinitions
 
             _response = client.Execute(request);
 
+            var flares = JsonSerializer.Deserialize<List<CMEJSON>>(_response.Content);
+            var limitedFlares = flares?.Take(2).ToList();
+
             Console.WriteLine("Request URL: " + client.BuildUri(request));
             Console.WriteLine("STATUS CODE: " + _response.StatusCode);
             Console.WriteLine("ERROR: " + _response.ErrorMessage);
@@ -71,6 +80,8 @@ namespace PreservicaAPITest.StepDefinitions
         public void FlrApiDatesResponse()
         {
             Assert.IsNotNull(_response, "This shows nothing, it might have failed!");
+            Assert.IsFalse(string.IsNullOrWhiteSpace(_response.Content));
+
             var statusCode = (int)_response.StatusCode;
             Console.WriteLine("Assert status code: " + statusCode);
             Assert.AreEqual(200, statusCode, "Expected status code 200 but got " + statusCode);
@@ -87,6 +98,9 @@ namespace PreservicaAPITest.StepDefinitions
             request.AddQueryParameter("api_key", "HJfm31QbHCFFxh939nCjgonTbxxyg9TW2FsybS6");
 
             _response = client.Execute(request);
+            var flares = JsonSerializer.Deserialize<List<CMEJSON>>(_response.Content);
+            var limitedFlares = flares?.Take(2).ToList();
+
 
             //Just for my workings out.
             Console.WriteLine("Request URL: " + client.BuildUri(request));
@@ -99,6 +113,7 @@ namespace PreservicaAPITest.StepDefinitions
         public void FlrApiNegativeResponse()
         {
             Assert.IsNotNull(_response, "This Request has FAILED!!");
+
             var statusCode = (int)_response.StatusCode;
             Console.WriteLine("Assert status code: " + statusCode);
             Assert.AreEqual(403, statusCode, "Expecting a 403 here -> " + statusCode);

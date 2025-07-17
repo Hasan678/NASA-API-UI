@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NasaPlaywrightUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5466b00ba9403a0a63bac78d900f0951d01babcc")]
 [assembly: System.Reflection.AssemblyProductAttribute("NasaPlaywrightUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NasaPlaywrightUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

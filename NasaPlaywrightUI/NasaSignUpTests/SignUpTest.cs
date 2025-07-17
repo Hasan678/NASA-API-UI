@@ -16,7 +16,7 @@ namespace NasaUITests
             _playwright = await Playwright.CreateAsync();
             _browser = await _playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
             {
-                Headless = false
+                Headless = true
             });
 
             _context = await _browser.NewContextAsync();
@@ -33,11 +33,12 @@ namespace NasaUITests
             Assert.IsNotNull(signUpLink, "Sign Up link not found!");
             await signUpLink.ClickAsync();
 
-            // i've put these all togethro because theyre just filling out stuff, and this uses my test data too.
+            // i've put these all togethor because theyre just filling out stuff, and this uses my test data too.
             await _page.FillAsync(SignUpLocators.FirstNameInput, TestData.firstName);
             await _page.WaitForTimeoutAsync(3000);
             await _page.WaitForSelectorAsync(SignUpLocators.LastNameInput);
             await _page.WaitForTimeoutAsync(3000);
+
             await _page.FillAsync(SignUpLocators.LastNameInput, TestData.lastName);
             await _page.WaitForTimeoutAsync(3000);
             await _page.WaitForSelectorAsync(SignUpLocators.EmailInput);

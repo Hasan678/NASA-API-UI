@@ -377,6 +377,7 @@ C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlaywrightUI\obj\Debug\net8.0\
 C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlaywrightUI\obj\Debug\net8.0\NasaPlaywrightUI.AssemblyInfoInputs.cache
 C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlaywrightUI\obj\Debug\net8.0\NasaPlaywrightUI.AssemblyInfo.cs
 C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlaywrightUI\obj\Debug\net8.0\NasaPlaywrightUI.csproj.CoreCompileInputs.cache
+C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlaywrightUI\obj\Debug\net8.0\NasaPlaywrightUI.sourcelink.json
 C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlaywrightUI\obj\Debug\net8.0\NasaPlay.ED4334FB.Up2Date
 C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlaywrightUI\obj\Debug\net8.0\NasaPlaywrightUI.dll
 C:\Users\Hasan\source\repos\PreservicaAPITest\NasaPlaywrightUI\obj\Debug\net8.0\refint\NasaPlaywrightUI.dll
