@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasaAPITest", "PreservicaAP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasaPlaywrightUI", "NasaPlaywrightUI\NasaPlaywrightUI.csproj", "{0B356923-B3BD-4D56-8C44-4D6F14935C2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumAPITest", "SeleniumAPITest\SeleniumAPITest.csproj", "{6DD1D798-D905-4BBE-BC08-E2233E795841}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumUITests", "SeleniumAPITest\SeleniumUITests.csproj", "{6DD1D798-D905-4BBE-BC08-E2233E795841}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

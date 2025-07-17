@@ -1777,9 +1777,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hasan\\source\\repos\\PreservicaAPITest\\SeleniumAPITest\\SeleniumAPITest.csproj",
-      "projectName": "SeleniumAPITest",
-      "projectPath": "C:\\Users\\Hasan\\source\\repos\\PreservicaAPITest\\SeleniumAPITest\\SeleniumAPITest.csproj",
+      "projectUniqueName": "C:\\Users\\Hasan\\source\\repos\\PreservicaAPITest\\SeleniumAPITest\\SeleniumUITests.csproj",
+      "projectName": "SeleniumUITests",
+      "projectPath": "C:\\Users\\Hasan\\source\\repos\\PreservicaAPITest\\SeleniumAPITest\\SeleniumUITests.csproj",
       "packagesPath": "C:\\Users\\Hasan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Hasan\\source\\repos\\PreservicaAPITest\\SeleniumAPITest\\obj\\",
       "projectStyle": "PackageReference",
